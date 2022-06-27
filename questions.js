@@ -6,7 +6,21 @@ let questions = [
     answer: "Hyper Text Markup Language",
     options: [
       "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
+      "<button onclick="myFunction()">Try it</button>
+
+<div id="myDIV">
+This is my DIV element.
+</div>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+        ",
       "Hyper Text Multiple Language",
       "Hyper Tool Multi Language"
     ]
