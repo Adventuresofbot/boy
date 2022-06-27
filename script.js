@@ -109,7 +109,7 @@ function showQuetions(index){
     }
 }
 // creating the new div tags which for icons
-let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div><p>hi</p>';
+let tickIconTag = '<div class="icon tick"><i class="fas fa-check"></i></div><br><p>hi</p>';
 let crossIconTag = '<div class="icon cross"><i class="fas fa-times"></i></div>';
 
 //if user clicked on option
