@@ -14,7 +14,7 @@ let questions = [
     {
     numb: 2,
     question: "Which tag is used to write main heading?",
-    answer: "Cascading Style Sheet",
+    answer: "<h1>",
     options: [
       "<heading>",
       "<h>",
