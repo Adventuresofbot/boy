@@ -16,7 +16,7 @@ let questions = [
     question: "Which tag is used to write main heading?",
     answer: "<h1>",
     options: [
-      "<heading>",
+      "&lt;heading&gt;",
       "<h>",
       "<h2>",
       "<h1>"
