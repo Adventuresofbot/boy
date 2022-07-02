@@ -13,13 +13,13 @@ let questions = [
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
+    question: "Which tag is used to write main heading?",
     answer: "Cascading Style Sheet",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "<heading>",
+      "<h>",
+      "<h2>",
+      "<h1>"
     ]
   },
     {
