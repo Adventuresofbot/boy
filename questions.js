@@ -9,7 +9,8 @@ let questions = [
       "Hyper Text Markup Language",
       "Hyper Text Multiple Language",
       "Hyper Tool Multi Language"
-    ]
+    ],
+        explanation : "Whatever your level of readiness is"
   },
     {
     numb: 2,
@@ -17,11 +18,12 @@ let questions = [
     answer: "<h1>",
     options: [
       "&lt;heading&gt;",
-      "<h>",
-      "<h2>",
-      "<h1>"
-    ]
-  },
+      "h",
+      "h2",
+      "1"
+    ],
+        explanation : "Whatever your level of readiness is"
+    },
     {
     numb: 3,
     question: "What does PHP stand for?",
@@ -31,7 +33,8 @@ let questions = [
       "Hypertext Programming",
       "Hypertext Preprogramming",
       "Hometext Preprocessor"
-    ]
+    ],
+        explanation : "Whatever your level of readiness is"
   },
     {
     numb: 4,
@@ -42,7 +45,8 @@ let questions = [
       "Stylesheet Query Language",
       "Statement Question Language",
       "Structured Query Language"
-    ]
+    ],
+          explanation : "Whatever your level of readiness is"
   },
     {
     numb: 5,
@@ -53,7 +57,8 @@ let questions = [
       "eXecutable Multiple Language",
       "eXTra Multi-Program Language",
       "eXamine Multiple Language"
-    ]
+    ],
+          explanation : "Whatever your level of readiness is"
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
