@@ -22,7 +22,7 @@ let questions = [
       "h2",
       "1"
     ],
-        explanation : "Whatever your level of readiness is"
+        explanation : "Whatever your level of readiness"
     },
     {
     numb: 3,
