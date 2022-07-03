@@ -59,6 +59,8 @@ restart_quiz.onclick = ()=>{
     startTimerLine(widthValue); //calling startTimerLine function
     timeText.textContent = "Time Left"; //change the text of timeText to Time Left
     next_btn.classList.remove("show"); //hide the next button
+    explain1.innerText = shuffledQuestions[currentQuestionIndex].explanation
+    explain1.classList.remove('hide')
 }
 
 // if quitQuiz button clicked
