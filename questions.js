@@ -34,7 +34,7 @@ let questions = [
       "Hypertext Preprogramming",
       "Hometext Preprocessor"
     ],
-        explanation : "Whatever your level of readiness is"
+        explanation : "Whatever your level of readiness s"
   },
     {
     numb: 4,
@@ -46,7 +46,7 @@ let questions = [
       "Statement Question Language",
       "Structured Query Language"
     ],
-          explanation : "Whatever your level of readiness is"
+          explanation : "Whatver your level of readiness is"
   },
     {
     numb: 5,
@@ -58,7 +58,7 @@ let questions = [
       "eXTra Multi-Program Language",
       "eXamine Multiple Language"
     ],
-          explanation : "Whatever your level of readiness is"
+          explanation : "atever your level of readiness is"
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
