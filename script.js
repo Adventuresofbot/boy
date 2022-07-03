@@ -148,7 +148,7 @@ function optionSelected(answer){
     }
     
     next_btn.classList.add("show"); //show the next button if user selected any option
-    explain1.innerText = questions[que_count].explanation;
+    explain1.innerText = questions[index].explanation;
     explain1.classList.add("show");
 }
 
@@ -197,7 +197,7 @@ function startTimer(time){
                 option_list.children[i].classList.add("disabled"); //once user select an option then disabled all options
             }
             next_btn.classList.add("show"); //show the next button if user selected any option
-            explain1.innerText = questions[index].explanation;
+            explain1.innerText = questions[que_count].explanation;
     explain1.classList.add("show");
         }
     }
