@@ -156,7 +156,7 @@ function optionSelected(answer){
     explain1.innerText = questions[que_count].explanation;
     explain1.classList.add("show");
     explain2.innerText = questions[que_count].explanation1;
-    explain2.classList.remove("show");
+    explain2.classList.add("show");
 }
 
 function showResult(){
@@ -207,7 +207,7 @@ function startTimer(time){
             explain1.innerText = questions[que_count].explanation;
             explain1.classList.add("show");
             explain2.innerText = questions[que_count].explanation1;
-    explain2.classList.remove("show");
+    explain2.classList.add("show");
         }
     }
 }
