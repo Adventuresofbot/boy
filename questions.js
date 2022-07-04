@@ -10,7 +10,9 @@ let questions = [
       "Hyper Text Multiple Language",
       "Hyper Tool Multi Language"
     ],
-        explanation : "Whatever your level of readiness is"
+        explanation : "Whatever your level of readiness is",
+        
+        explanation1 : "This question answer explanations will be given in next question"
   },
     {
     numb: 2,
@@ -22,7 +24,9 @@ let questions = [
       "h2",
       "1"
     ],
-        explanation1 : "Whatever your level of readiness"
+        explanation : "Whatever your level of readiness",
+         explanation1 : "This question answer explanations will be given in next question"
+
     },
     {
     numb: 3,
@@ -34,7 +38,9 @@ let questions = [
       "Hypertext Preprogramming",
       "Hometext Preprocessor"
     ],
-        explanation : "Whatever your level of readiness s"
+        explanation : "Whatever your level of readiness s",
+         explanation1 : "This question answer explanations will be given in next question"
+
   },
     {
     numb: 4,
@@ -46,7 +52,9 @@ let questions = [
       "Statement Question Language",
       "Structured Query Language"
     ],
-          explanation1 : "Whatver your level of readiness is"
+          explanation : "Whatver your level of readiness is",
+         explanation1 : "This question answer explanations will be given in next question"
+
   },
     {
     numb: 5,
@@ -58,7 +66,9 @@ let questions = [
       "eXTra Multi-Program Language",
       "eXamine Multiple Language"
     ],
-          explanation : "atever your level of readiness is"
+          explanation : "atever your level of readiness is",
+         explanation1 : "This question answer explanations will be given in next question"
+
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....
