@@ -59,9 +59,9 @@ restart_quiz.onclick = ()=>{
     startTimer(timeValue); //calling startTimer function
     startTimerLine(widthValue); //calling startTimerLine function
     timeText.textContent = "Time Left"; //change the text of timeText to Time Left
-    next_btn.classList.remove("hide"); //hide the next button
+    next_btn.classList.remove("show"); //hide the next button
     explain1.innerText = questions[que_count].explanation;
-    explain1.classList.remove("show");
+    explain1.classList.remove("hide");
     explain2.innerText = questions[que_count].explanation1;
     explain2.classList.remove("show");
 }
@@ -86,9 +86,9 @@ next_btn.onclick = ()=>{
         startTimer(timeValue); //calling startTimer function
         startTimerLine(widthValue); //calling startTimerLine function
         timeText.textContent = "Time Left"; //change the timeText to Time Left
-        next_btn.classList.remove("hide"); //hide the next button
+        next_btn.classList.remove("show"); //hide the next button
           explain1.innerText = questions[que_count].explanation;
-          explain1.classList.remove("show");
+          explain1.classList.remove("hide");
         explain2.innerText = questions[que_count].explanation1;
     explain2.classList.remove("show");
     }else{
@@ -152,9 +152,9 @@ function optionSelected(answer){
         option_list.children[i].classList.add("disabled"); //once user select an option then disabled all options
     }
     
-    next_btn.classList.add("hide"); //show the next button if user selected any option
+    next_btn.classList.add("show"); //show the next button if user selected any option
     explain1.innerText = questions[que_count].explanation;
-    explain1.classList.add("show");
+    explain1.classList.add("hide");
     explain2.innerText = questions[que_count].explanation1;
     explain2.classList.add("show");
 }
@@ -203,9 +203,9 @@ function startTimer(time){
             for(i=0; i < allOptions; i++){
                 option_list.children[i].classList.add("disabled"); //once user select an option then disabled all options
             }
-            next_btn.classList.add("hide"); //show the next button if user selected any option
+            next_btn.classList.add("show"); //show the next button if user selected any option
             explain1.innerText = questions[que_count].explanation;
-            explain1.classList.add("show");
+            explain1.classList.add("hide");
             explain2.innerText = questions[que_count].explanation1;
     explain2.classList.add("show");
         }
