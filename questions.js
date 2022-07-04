@@ -22,7 +22,7 @@ let questions = [
       "h2",
       "1"
     ],
-        explanation : "Whatever your level of readiness"
+        explanation1 : "Whatever your level of readiness"
     },
     {
     numb: 3,
@@ -46,7 +46,7 @@ let questions = [
       "Statement Question Language",
       "Structured Query Language"
     ],
-          explanation : "Whatver your level of readiness is"
+          explanation1 : "Whatver your level of readiness is"
   },
     {
     numb: 5,
