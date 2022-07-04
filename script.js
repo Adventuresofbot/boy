@@ -63,7 +63,7 @@ restart_quiz.onclick = ()=>{
     explain1.innerText = questions[que_count].explanation;
     explain1.classList.remove("hide");
     explain2.innerText = questions[que_count].explanation1;
-    explain2.classList.remove("show");
+    explain2.classList.remove("explain");
 }
 
 // if quitQuiz button clicked
@@ -90,7 +90,7 @@ next_btn.onclick = ()=>{
           explain1.innerText = questions[que_count].explanation;
           explain1.classList.remove("hide");
         explain2.innerText = questions[que_count].explanation1;
-    explain2.classList.remove("show");
+    explain2.classList.remove("explain");
     }else{
         clearInterval(counter); //clear counter
         clearInterval(counterLine); //clear counterLine
@@ -156,7 +156,7 @@ function optionSelected(answer){
     explain1.innerText = questions[que_count].explanation;
     explain1.classList.add("hide");
     explain2.innerText = questions[que_count].explanation1;
-    explain2.classList.add("show");
+    explain2.classList.add("explain");
 }
 
 function showResult(){
@@ -207,7 +207,7 @@ function startTimer(time){
             explain1.innerText = questions[que_count].explanation;
             explain1.classList.add("hide");
             explain2.innerText = questions[que_count].explanation1;
-    explain2.classList.add("show");
+    explain2.classList.add("explain");
         }
     }
 }
