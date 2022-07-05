@@ -21,7 +21,7 @@ let questions = [
       "Common Style Sheet",
       "Colorful Style Sheet",
       "Computer Style Sheet",
-      "The answer is &lt;h1&gt heading",
+      "The answer is <h1> heading",
     ],
        explanation : "Html full form is &quot;Hyper Text Markup Language&quot;",
          explanation1 : "The above is explanation of previous question,this question answer explanations will be given in next question"
