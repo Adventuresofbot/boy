@@ -16,7 +16,7 @@ let questions = [
     {
     numb: 2,
     question: "Which tag is used to write main heading?",
-    answer: "&lt;h1&gt;",
+    answer: "&lt;h1&gt",
     options: [
       "&lt;heading&gt;",
       "&lt;h&gt",
