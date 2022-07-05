@@ -10,9 +10,9 @@ let questions = [
       "Hyper Text Multiple Language",
       "Hyper Tool Multi Language"
     ],
-         explanation : "Best of Luck",
-         explanation1 : "This question answer explanations will be given in next question"
-        },
+        explanation : "Best of Luck",
+        explanation1 : "This question answer explanations will be given in next question"
+    },
     {
     numb: 2,
     question: "Which tag is used to write main heading?",
@@ -21,7 +21,7 @@ let questions = [
       "&lt;heading&gt;",
       "&lt;h&gt",
       "&lt;h1&gt to &lt;h6&gt",
-      "h1"
+      "&lt;h1&gt"
     ],
         explanation : "Html full form is &quot;Hyper Text Markup Language&quot",
          explanation1 : "The above is explanation of previous question,this question answer explanations will be given in next question"
