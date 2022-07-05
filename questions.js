@@ -13,17 +13,17 @@ let questions = [
         explanation : "Best of Luck",
         explanation1 : "This question answer explanations will be given in next question"
     },
-    {
+   {
     numb: 2,
-    question: "Which tag is used to write main heading?",
-    answer: "Its &lt;h1&gt",
+    question: "What does CSS stand for?",
+    answer: "Cascading Style Sheet",
     options: [
-      "Its &lt;heading&gt;",
-      "Its &lt;h&gt",
-      "Its &lt;h1&gt to &lt;h6&gt",
-      "Its &lt;h1&gt"
+      "Common Style Sheet",
+      "Colorful Style Sheet",
+      "Computer Style Sheet",
+      "Cascading Style Sheet"
     ],
-        explanation : "Html full form is &quot;Hyper Text Markup Language&quot;",
+       explanation : "Html full form is &quot;Hyper Text Markup Language&quot;",
          explanation1 : "The above is explanation of previous question,this question answer explanations will be given in next question"
 
     },
