@@ -30,7 +30,7 @@ let questions = [
     {
     numb: 3,
     question: "Does &lt;style&gt present in html",
-    answer: "yes its present in structure of html but the main work is done by css",",
+    answer: "yes its present in structure of html but the main work is done by css",
     options: [
       "yes &lt;style&gt includes in html only",
       "no &lt;style&gt its present in css",
