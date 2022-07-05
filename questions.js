@@ -23,7 +23,7 @@ let questions = [
       "&lt;h1&gt to &lt;h6&gt",
       "&lt;h1&gt"
     ],
-        explanation : "Html full form is &quot;Hyper Text Markup Language&quot",
+        explanation : "Html full form is &quot;Hyper Text Markup Language&quot;",
          explanation1 : "The above is explanation of previous question,this question answer explanations will be given in next question"
 
     },
