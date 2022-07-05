@@ -16,7 +16,7 @@ let questions = [
    {
     numb: 2,
     question: "What does CSS stand for?",
-    answer: "The answer is &lt;h1&gt heading",
+    answer: "The answer is <h1> heading",
     options: [
       "Common Style Sheet",
       "Colorful Style Sheet",
