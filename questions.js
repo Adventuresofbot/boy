@@ -16,12 +16,12 @@ let questions = [
     {
     numb: 2,
     question: "Which tag is used to write main heading?",
-    answer: "&lt;h1&gt",
+    answer: "Its &lt;h1&gt",
     options: [
-      "&lt;heading&gt;",
-      "&lt;h&gt",
-      "&lt;h1&gt to &lt;h6&gt",
-      "&lt;h1&gt"
+      "Its &lt;heading&gt;",
+      "Its &lt;h&gt",
+      "Its &lt;h1&gt to &lt;h6&gt",
+      "Its &lt;h1&gt"
     ],
         explanation : "Html full form is &quot;Hyper Text Markup Language&quot;",
          explanation1 : "The above is explanation of previous question,this question answer explanations will be given in next question"
