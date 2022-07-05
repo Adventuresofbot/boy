@@ -13,33 +13,34 @@ let questions = [
         explanation : "Best of Luck",
         
         explanation1 : "This question answer explanations will be given in next question"
-  },
+
+          },
     {
     numb: 2,
     question: "Which tag is used to write main heading?",
-    answer: "<h1>",
+    answer: "&lt;h1&gt;",
     options: [
       "&lt;heading&gt;",
-      "h",
-      "h2",
-      "1"
+      "&lt;h&gt",
+      "&lt;h1&gt to &lt;h6&gt",
+      "h1"
     ],
-        explanation : "Whatever your level of readiness",
+        explanation : "Html full form is &quot;Hyper Text Markup Language&quot",
          explanation1 : "The above is explanation of previous question,this question answer explanations will be given in next question"
 
     },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Does &lt;style&gt present in html",
+    answer: "yes its present in structure of html but the main work is done by css",",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "yes &lt;style&gt includes in html only",
+      "no &lt;style&gt its present in css",
+      "yes its present in structure of html but the main work is done by css",
+      "None of the above"
     ],
         explanation : "Whatever your level of readiness s",
-         explanation1 : "The above is explanation of previous question,This question answer explanations will be given in next question"
+        explanation1 : "The above is explanation of previous question,This question answer explanations will be given in next question"
 
   },
     {
@@ -52,8 +53,8 @@ let questions = [
       "Statement Question Language",
       "Structured Query Language"
     ],
-          explanation : "Whatver your level of readiness is",
-         explanation1 : "The above is explanation of previous question,This question answer explanations will be given in next question"
+          explanation : "Html full form is &quot;Hyper Text Markup Language&quot",
+         explanation1 : "The above is explanation of previous question,this question answer explanations will be given in next question"
 
   },
     {
