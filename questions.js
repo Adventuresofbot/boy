@@ -16,12 +16,12 @@ let questions = [
    {
     numb: 2,
     question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    answer: "&lt;h1&gt",
     options: [
       "Common Style Sheet",
       "Colorful Style Sheet",
       "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "&lt;h1&gt"
     ],
        explanation : "Html full form is &quot;Hyper Text Markup Language&quot;",
          explanation1 : "The above is explanation of previous question,this question answer explanations will be given in next question"
