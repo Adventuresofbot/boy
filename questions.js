@@ -25,7 +25,7 @@ let questions = [
       "1"
     ],
         explanation : "Whatever your level of readiness",
-         explanation1 : "This question answer explanations will be given in next question"
+         explanation1 : "The above is explanation of previous question,this question answer explanations will be given in next question"
 
     },
     {
@@ -39,7 +39,7 @@ let questions = [
       "Hometext Preprocessor"
     ],
         explanation : "Whatever your level of readiness s",
-         explanation1 : "This question answer explanations will be given in next question"
+         explanation1 : "The above is explanation of previous question,This question answer explanations will be given in next question"
 
   },
     {
@@ -53,7 +53,7 @@ let questions = [
       "Structured Query Language"
     ],
           explanation : "Whatver your level of readiness is",
-         explanation1 : "This question answer explanations will be given in next question"
+         explanation1 : "The above is explanation of previous question,This question answer explanations will be given in next question"
 
   },
     {
@@ -67,7 +67,7 @@ let questions = [
       "eXamine Multiple Language"
     ],
           explanation : "atever your level of readiness is",
-         explanation1 : "This question answer explanations will be given in next question"
+         explanation1 : "The above is explanation of previous question,This question answer explanations will be given in next question"
 
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
