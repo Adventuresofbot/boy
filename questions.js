@@ -10,7 +10,7 @@ let questions = [
       "Hyper Text Multiple Language",
       "Hyper Tool Multi Language"
     ],
-        explanation : "Whatever your level of readiness is",
+        explanation : "Best of Luck",
         
         explanation1 : "This question answer explanations will be given in next question"
   },
