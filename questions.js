@@ -9,29 +9,37 @@ let questions = [
       "Hyper Text Markup Language",
       "Hyper Text Multiple Language",
       "Hyper Tool Multi Language"
-    ]
-  },
-    {
+    ],
+        explanation : "Best of Luck",
+        explanation1 : "This question answer explanations will be given in next question"
+    },
+   {
     numb: 2,
-    question: "Which tag is used to write main heading?",
-    answer: "<h1>",
+    question: "What does CSS stand for?",
+    answer: "The answer is &lt;h1&gt heading",
     options: [
-      "&lt;heading&gt;",
-      "<h>",
-      "<h2>",
-      "<h1>"
-    ]
-  },
+      "Common Style Sheet",
+      "Colorful Style Sheet",
+      "Computer Style Sheet",
+      "The answer is &lt;h1&gt heading",
+    ],
+       explanation : "Html full form is &quot;Hyper Text Markup Language&quot;",
+         explanation1 : "The above is explanation of previous question,this question answer explanations will be given in next question"
+
+    },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "Does &lt;style&gt present in html",
+    answer: "yes its present in structure of html but the main work is done by css",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
-    ]
+      "yes &lt;style&gt includes in html only",
+      "no &lt;style&gt its present in css",
+      "yes its present in structure of html but the main work is done by css",
+      "None of the above"
+    ],
+        explanation : "Whatever your level of readiness s",
+        explanation1 : "The above is explanation of previous question,This question answer explanations will be given in next question"
+
   },
     {
     numb: 4,
@@ -42,7 +50,10 @@ let questions = [
       "Stylesheet Query Language",
       "Statement Question Language",
       "Structured Query Language"
-    ]
+    ],
+          explanation : "Html full form is &quot;Hyper Text Markup Language&quot;",
+         explanation1 : "The above is explanation of previous question,this question answer explanations will be given in next question"
+
   },
     {
     numb: 5,
@@ -53,7 +64,10 @@ let questions = [
       "eXecutable Multiple Language",
       "eXTra Multi-Program Language",
       "eXamine Multiple Language"
-    ]
+    ],
+          explanation : "atever your level of readiness is",
+         explanation1 : "The above is explanation of previous question,This question answer explanations will be given in next question"
+
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
   // but remember you need to give the numb value serialize like 1,2,3,5,6,7,8,9.....

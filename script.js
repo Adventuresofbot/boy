@@ -3,6 +3,8 @@ const start_btn = document.querySelector(".start_btn button");
 const info_box = document.querySelector(".info_box");
 const exit_btn = info_box.querySelector(".buttons .quit");
 const continue_btn = info_box.querySelector(".buttons .restart");
+const explain1 = document.querySelector(".explain1");
+const explain2 = document.querySelector(".explain2");
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
@@ -58,6 +60,10 @@ restart_quiz.onclick = ()=>{
     startTimerLine(widthValue); //calling startTimerLine function
     timeText.textContent = "Time Left"; //change the text of timeText to Time Left
     next_btn.classList.remove("show"); //hide the next button
+    explain1.innerText = questions[que_count].explanation;
+    explain1.classList.remove("hide");
+    explain2.innerText = questions[que_count].explanation1;
+    explain2.classList.remove("explain");
 }
 
 // if quitQuiz button clicked
@@ -81,6 +87,10 @@ next_btn.onclick = ()=>{
         startTimerLine(widthValue); //calling startTimerLine function
         timeText.textContent = "Time Left"; //change the timeText to Time Left
         next_btn.classList.remove("show"); //hide the next button
+          explain1.innerText = questions[que_count].explanation;
+          explain1.classList.remove("hide");
+        explain2.innerText = questions[que_count].explanation1;
+    explain2.classList.remove("explain");
     }else{
         clearInterval(counter); //clear counter
         clearInterval(counterLine); //clear counterLine
@@ -141,7 +151,12 @@ function optionSelected(answer){
     for(i=0; i < allOptions; i++){
         option_list.children[i].classList.add("disabled"); //once user select an option then disabled all options
     }
+    
     next_btn.classList.add("show"); //show the next button if user selected any option
+    explain1.innerText = questions[que_count].explanation;
+    explain1.classList.add("hide");
+    explain2.innerText = questions[que_count].explanation1;
+    explain2.classList.add("explain");
 }
 
 function showResult(){
@@ -189,6 +204,10 @@ function startTimer(time){
                 option_list.children[i].classList.add("disabled"); //once user select an option then disabled all options
             }
             next_btn.classList.add("show"); //show the next button if user selected any option
+            explain1.innerText = questions[que_count].explanation;
+            explain1.classList.add("hide");
+            explain2.innerText = questions[que_count].explanation1;
+    explain2.classList.add("explain");
         }
     }
 }
