@@ -16,12 +16,12 @@ let questions = [
    {
     numb: 2,
     question: "What does CSS stand for?",
-    answer: "The answer is <h1> heading",
+    answer: "The answer is &lt;h1&gt heading",
     options: [
       "Common Style Sheet",
       "Colorful Style Sheet",
       "Computer Style Sheet",
-      "The answer is <h1> heading",
+      "The answer is &lt;h1&gt heading",
     ],
        explanation : "Html full form is &quot;Hyper Text Markup Language&quot;",
          explanation1 : "The above is explanation of previous question,this question answer explanations will be given in next question"
@@ -51,7 +51,7 @@ let questions = [
       "Statement Question Language",
       "Structured Query Language"
     ],
-          explanation : "Html full form is &quot;Hyper Text Markup Language&quot",
+          explanation : "Html full form is &quot;Hyper Text Markup Language&quot;",
          explanation1 : "The above is explanation of previous question,this question answer explanations will be given in next question"
 
   },
